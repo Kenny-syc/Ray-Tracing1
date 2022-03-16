@@ -11,11 +11,12 @@
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "cwd": "C:\\cygwin64\\bin",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "D:\\Syc\\Install2\\mingw64\\bin\\gdb.exe",
+            "miDebuggerPath": "C:\\cygwin64\\bin\\gdb.exe",
+            "logging": {"engineLogging": true},
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",
