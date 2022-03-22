@@ -19,11 +19,16 @@ public:
         return orig + t * dir;                  //终点
     }
 
+    
+
 
 public:
     point3 orig;        //点
     vec3 dir;           //方向
 };
 
+vec3 random_unit_vector(){
+        return unit_vector(random_in_unit_sphere());
+}
 
 #endif
